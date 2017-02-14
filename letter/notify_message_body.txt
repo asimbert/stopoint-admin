@@ -1,0 +1,32 @@
+This message was generated automatically as a result of a visitor
+completing the registration form on www.leadersedgetraining.com
+
+Please see below for information about this signup.
+
+For full details, visit the admin area.
+
+
+Signup Information
+----------------------
+Name:  [firstname] [lastname]
+Email: [email-address]
+
+
+Event Information
+----------------------
+
+Name:     [event-name]
+
+Location: [event-location]
+
+Date:     [event-date]
+
+Price:    [event-price]
+
+
+
+
+
+Form Completed on: [today-date]
+Visitor IP Address: [visitor-ip]
+

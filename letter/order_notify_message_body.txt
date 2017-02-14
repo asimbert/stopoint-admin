@@ -1,0 +1,23 @@
+<p>This message was generated automatically as a result of a visitor completing the product order form on www.leadersedgetraining.com </p>
+<p>
+Please see below for information about this order.
+</p>
+
+<p>For full details, please visit the admin area. </p>
+
+
+<p>User Information </p>
+<p>---------------------- </p>
+<p>Name:  [firstname] [lastname] </p>
+<p>Email: [email-address] </p>
+
+<p>
+Order Information<br>
+----------------------
+</p>
+[cart]
+
+
+<p>Form Completed on: [today-date]</p>
+<p>Visitor IP Address: [visitor-ip]</p>
+

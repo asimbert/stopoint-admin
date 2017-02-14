@@ -1,0 +1,16 @@
+<p>
+Hello [firstname],
+</p>
+<p>
+This is a confirmation message to verify that your order has been completed.
+</p>
+<p>
+	Here is the item list and total for your order:
+</p>
+[cart]
+
+
+<p>
+Leader's Edge Training
+</p>
+www.leadersedgetraining.com

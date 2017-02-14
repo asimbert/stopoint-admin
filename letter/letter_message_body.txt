@@ -1,0 +1,175 @@
+
+
+<div style="font-family: Arial; text-align: center;"><span><br/><img src="http://www.chrisleader.com/images/email-logo.jpg"/></span> <br/><br/></div><font size="3" _moz_dirty=""><span style="font-weight: bold; font-family: Arial;" _moz_dirty="">RE: Congratulations on your Registration!</span></font><br style="font-family: Arial;"/><br style="font-family: Arial;"/>
+
+
+
+<div style="border-bottom: 2px solid rgb(0, 0, 0); font-family: Arial;"><br/></div>
+
+
+
+<div style="font-family: Arial;"><br/><font size="3" _moz_dirty="">This e-mail confirms your registration into the upcoming Leader&rsquo;s Choice&copy; Program. Over the nine sessions, Chris will create a dynamic atmosphere, using a combination of entertainment and education to keep you on the edge of your seat.<br _moz_dirty=""/><br _moz_dirty=""/>Please confirm your registration information below and contact our office if any changes are required:<br _moz_dirty=""/><br _moz_dirty=""/><br _moz_dirty=""/>Event: [event-name]<br _moz_dirty=""/>Location: [event-location]<br _moz_dirty=""/>Date: [event-date]<br _moz_dirty=""/>Price: [event-price]</font></div>
+
+
+
+<p><font size="3" _moz_dirty="">
+
+</font></p>
+
+
+
+<div style="font-family: Arial;"><font size="3" _moz_dirty=""><font size="2" _moz_dirty=""><span style="font-style: italic;" _moz_dirty="">Contact Information</span></font><br _moz_dirty=""/>Name: [firstname] [lastname]<br _moz_dirty=""/>Company: [company name]<br _moz_dirty=""/>Email:        [email address]<br _moz_dirty=""/><br _moz_dirty=""/>Work Phone: [work phone]<br _moz_dirty=""/>Cell Phone: &nbsp;   [cell phone]<br _moz_dirty=""/>Fax Number: [fax number]<br _moz_dirty=""/><br _moz_dirty=""/>Address:<br _moz_dirty=""/>[street address]<br _moz_dirty=""/>[city], [state] [zip]<br _moz_dirty=""/><br _moz_dirty=""/><br _moz_dirty=""/>T-Shirt Size: [t shirt size]<br _moz_dirty=""/><br _moz_dirty=""/>Comments: [comments]<br _moz_dirty=""/><br _moz_dirty=""/><br _moz_dirty=""/><font size="2" _moz_dirty=""><span style="font-style: italic;" _moz_dirty="">Credit Card Information</span></font><br _moz_dirty=""/><br _moz_dirty=""/>Name on Card: [cc name]<br _moz_dirty=""/>Card Type:        [cc type]<br _moz_dirty=""/>Card Number:   <font size="1" _moz_dirty=""><span style="font-weight: bold;" _moz_dirty="">**not displayed**</span></font><br _moz_dirty=""/>Card Expire:     [cc exp month] / [cc exp year]<br _moz_dirty=""/><br _moz_dirty=""/><br _moz_dirty=""/><br _moz_dirty=""/>Once we process your registration, you will receive a second e-mail with the course itinerary and details. We look forward to meeting you at the first class. <br _moz_dirty=""/><br _moz_dirty=""/><br _moz_dirty=""/>Regards, <br/><br/><span><img src="http://www.chrisleader.com/images/email-sig.jpg"/></span><br/><br/><br/><font size="3" _moz_dirty=""><span style="font-weight: bold;" _moz_dirty="">Chris H. Leader</span><br style="font-weight: bold;" _moz_dirty=""/><span style="font-weight: bold; font-style: italic;" _moz_dirty="">Master Trainer</span><br style="font-weight: bold;" _moz_dirty=""/><br style="font-weight: bold;" _moz_dirty=""/><span style="font-weight: bold;" _moz_dirty="">Bus: <span onmouseup="function anonymous()
+
+{
+
+skype_tb_imgOnOff(this,1,'0',true,16,'');return skype_tb_stopEvents();
+
+}" class="skype_tb_injection" oncontextmenu="function anonymous()
+
+{
+
+skype_tb_SwitchDrop(this,'0','sms=0');return skype_tb_stopEvents();
+
+}" onmousedown="function anonymous()
+
+{
+
+skype_tb_imgOnOff(this,2,'0',true,16,'');return skype_tb_stopEvents();
+
+}" id="softomate_highlight_0" onmouseover="function anonymous()
+
+{
+
+skype_tb_imgOnOff(this,1,'0',true,16,'');
+
+}" title="Call this phone number in Canada with Skype: +17057929999" onclick="function anonymous()
+
+{
+
+doRunCMD('call','0',null,0);return skype_tb_stopEvents();
+
+}" onmouseout="function anonymous()
+
+{
+
+skype_tb_imgOnOff(this,0,'0',true,16,'');
+
+}" context="(705)792.9999"><span onmouseup="function anonymous()
+
+{
+
+doSkypeFlag(this,'0',1,1,16);return skype_tb_stopEvents();
+
+}" class="skype_tb_imgA" onmousedown="function anonymous()
+
+{
+
+doSkypeFlag(this,'0',2,1,16);return skype_tb_stopEvents();
+
+}" id="skype_tb_droppart_0" onmouseover="function anonymous()
+
+{
+
+doSkypeFlag(this,'0',1,1,16);
+
+}" title="Change country code ..." style="" onclick="function anonymous()
+
+{
+
+doHandleChdial(this,1,'0',1);return skype_tb_stopEvents();
+
+}" onmouseout="function anonymous()
+
+{
+
+doSkypeFlag(this,'0',0,1,16);
+
+}"><span class="skype_tb_imgFlag" id="skype_tb_img_f0" style=""><span class="skype_tb_imgS" id="skype_tb_img_s0"><span class="skype_tb_injectionIn" id="skype_tb_text0"><span class="skype_tb_innerText" id="skype_tb_innerText0">(705)792.9999</span> </span><span class="skype_tb_imgR" id="skype_tb_img_r0"><br style="font-weight: bold;" _moz_dirty=""/><span style="font-weight: bold;" _moz_dirty="">Fax: (705)792.9956</span><br style="font-weight: bold;" _moz_dirty=""/><span style="font-weight: bold;" _moz_dirty="">Cell: <span onmouseup="function anonymous()
+
+{
+
+skype_tb_imgOnOff(this,1,'2',true,16,'');return skype_tb_stopEvents();
+
+}" class="skype_tb_injection" oncontextmenu="function anonymous()
+
+{
+
+skype_tb_SwitchDrop(this,'2','sms=1');return skype_tb_stopEvents();
+
+}" onmousedown="function anonymous()
+
+{
+
+skype_tb_imgOnOff(this,2,'2',true,16,'');return skype_tb_stopEvents();
+
+}" id="softomate_highlight_2" onmouseover="function anonymous()
+
+{
+
+skype_tb_imgOnOff(this,1,'2',true,16,'');
+
+}" title="Call this phone number in Canada with Skype: +17057911641" onclick="function anonymous()
+
+{
+
+doRunCMD('call','2',null,0);return skype_tb_stopEvents();
+
+}" onmouseout="function anonymous()
+
+{
+
+skype_tb_imgOnOff(this,0,'2',true,16,'');
+
+}" context="(705)791.1641"><span onmouseup="function anonymous()
+
+{
+
+doSkypeFlag(this,'2',1,1,16);return skype_tb_stopEvents();
+
+}" class="skype_tb_imgA" onmousedown="function anonymous()
+
+{
+
+doSkypeFlag(this,'2',2,1,16);return skype_tb_stopEvents();
+
+}" id="skype_tb_droppart_2" onmouseover="function anonymous()
+
+{
+
+doSkypeFlag(this,'2',1,1,16);
+
+}" title="Change country code ..." style="" onclick="function anonymous()
+
+{
+
+doHandleChdial(this,1,'2',1);return skype_tb_stopEvents();
+
+}" onmouseout="function anonymous()
+
+{
+
+doSkypeFlag(this,'2',0,1,16);
+
+}"><span class="skype_tb_imgFlag" id="skype_tb_img_f2" style=""><span class="skype_tb_imgS" id="skype_tb_img_s2"><span class="skype_tb_injectionIn" id="skype_tb_text2"><span class="skype_tb_innerText" id="skype_tb_innerText2">(705)791.1641</span> </span><span class="skype_tb_imgR" id="skype_tb_img_r2"/></span></span></span></span></span></span></span></span></span></span></span></font><br/></font></div>
+
+
+
+<p>
+
+</p>
+
+
+
+<p>
+
+</p>
+
+
+
+<p>
+
+</p>
+
+
+
+<p><br/><br/></p><br/><br/>

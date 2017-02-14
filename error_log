@@ -1,0 +1,736 @@
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined offset: 8 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:14:56 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:14:57 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined offset: 8 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:15:00 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:15:02 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 464
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 993
+[09-Feb-2017 10:15:40 America/New_York] PHP Notice:  Undefined variable: my_date in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 997
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined offset: 8 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:15:41 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:15:42 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined offset: 9 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:15:50 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:15:52 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 993
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined offset: 9 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:15:58 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:16:00 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined offset: 9 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:16:09 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:16:10 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:16:57 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:16:58 America/New_York] PHP Notice:  Array to string conversion in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 766
+[09-Feb-2017 10:16:58 America/New_York] PHP Notice:  Undefined index: ChequeNumber in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 777
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 993
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined offset: 9 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:16:59 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:17:00 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:17:34 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Undefined offset: 9 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:17:35 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:17:36 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined offset: 8 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:29:41 America/New_York] PHP Notice:  Undefined index: TrackingNumber in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2971
+[09-Feb-2017 10:29:42 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined offset: 8 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:30:57 America/New_York] PHP Notice:  Undefined index: TrackingNumber in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2971
+[09-Feb-2017 10:30:58 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined offset: 8 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:33:58 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:34:00 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: TrackingCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: FedexCode in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: Returnlabel in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: OrderDate in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: OrderStatus in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: OrderAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: ProductSerial in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: type in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1049
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: ProductId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: UserId in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: Condition in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: UserComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 611
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 307
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 464
+[09-Feb-2017 10:34:06 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 721
+[09-Feb-2017 10:34:07 America/New_York] PHP Notice:  Array to string conversion in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 766
+[09-Feb-2017 10:34:07 America/New_York] PHP Notice:  Undefined index: AdjustedAmount in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 774
+[09-Feb-2017 10:34:07 America/New_York] PHP Notice:  Undefined index: ChequeNumber in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 777
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined index: AdminComments in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 993
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined index: photo in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 1932
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2070
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined variable: action_msg in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2078
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 787
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined index: name in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined index: selected in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 909
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined index: class in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 1075
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 2122
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined offset: 8 in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:34:08 America/New_York] PHP Notice:  Undefined index:  in /home/stopoint/public_html/stopointsxgdlj123/classes/class.table_form.php on line 763
+[09-Feb-2017 10:34:09 America/New_York] PHP Notice:  Undefined index: res in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 3262
+[09-Feb-2017 10:34:50 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 247
+[11-Feb-2017 00:40:29 America/New_York] PHP Notice:  Array to string conversion in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 151
+[11-Feb-2017 00:40:29 America/New_York] PHP Notice:  Undefined index: user_id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 153
+[11-Feb-2017 00:40:30 America/New_York] PHP Notice:  Undefined index: user_id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 153
+[11-Feb-2017 01:31:20 America/New_York] PHP Fatal error:  Call to undefined function get_emailbody_paypal_payment() in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 213
+[11-Feb-2017 01:36:45 America/New_York] PHP Fatal error:  Call to undefined function get_emailbody_paypal_payment() in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 213
+[11-Feb-2017 14:38:35 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/stopoint/public_html/stopointsxgdlj123/allow-access.php on line 117
+[11-Feb-2017 14:38:40 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/stopoint/public_html/stopointsxgdlj123/allow-access.php on line 117
+[11-Feb-2017 14:38:52 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/stopoint/public_html/stopointsxgdlj123/allow-access.php on line 117
+[13-Feb-2017 07:51:17 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/stopoint/public_html/stopointsxgdlj123/order_edit.php on line 172
+[13-Feb-2017 12:04:45 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 167
+[13-Feb-2017 12:04:45 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 167
+[13-Feb-2017 12:05:51 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 167
+[13-Feb-2017 12:05:51 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 167
+[13-Feb-2017 12:05:51 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 167
+[13-Feb-2017 12:05:51 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 167
+[13-Feb-2017 12:05:51 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 167
+[13-Feb-2017 12:05:51 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 167
+[13-Feb-2017 12:05:51 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-paypal-payment.php on line 167
+[13-Feb-2017 16:21:55 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:21:57 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:21:59 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:22:01 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:22:03 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:22:06 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:22:08 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:22:10 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:22:13 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:22:15 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 16:22:17 America/New_York] PHP Notice:  Undefined index: id in /home/stopoint/public_html/stopointsxgdlj123/bulk-check-payment.php on line 119
+[13-Feb-2017 17:14:37 America/New_York] PHP Notice:  Undefined index: g-recaptcha-response in /home/stopoint/public_html/stopointsxgdlj123/login.php on line 28
