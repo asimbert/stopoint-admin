@@ -1,6 +1,6 @@
 <?php
 
-require_once('/home/stopoint/public_html/PHPMailer-master/PHPMailerAutoload.php');
+require_once('C:/xampp/htdocs/stopoint-admin/PHPMailer-master/PHPMailerAutoload.php');
 
 use Dompdf\Dompdf; 
 function send_email($subject, $body, $to_email){
