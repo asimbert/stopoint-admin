@@ -4,8 +4,8 @@ require_once(dirname(__FILE__) . '/inc/core.php');
 
 require_once(dirname(__FILE__) . '/classes/class.table_form.php');
 
-require_once('../fedex-common.php5');
-$path_to_wsdl = "../ShipService_v15.wsdl";
+require_once('fedex-common.php5');
+$path_to_wsdl = "ShipService_v15.wsdl";
 
 function addShipper(){
 	

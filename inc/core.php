@@ -1,6 +1,9 @@
 <?php
-	
-
+/*	
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+*/
 	ini_set('memory_limit','2000M');
 
 	ini_set('max_execution',0);
@@ -832,11 +835,11 @@ while ($row = mysql_fetch_assoc($rows)) fputcsv($output, $row);
 
 
 
-	if (stristr($_SERVER["SCRIPT_FILENAME"], 'stopointsxgdlj123') !== false && !isset($_SESSION['logged_in'])) {
+	if (!isset($_SESSION['logged_in'])) {
 
 
 
-	  	header('Location: http://www.stopoint.com/stopointsxgdlj123/login.php');
+	  	header('Location: https://stopointsxgdlj123sxgdlj123.stopoint.com/login.php');
 
 	   	die();
 
