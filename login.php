@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 session_start();
 ob_start();
-
+require_once('init/init.php');
 require_once(dirname(__FILE__) . '/classes/class.database.php');
 require_once(dirname(__FILE__) . '/inc/functions.php');
 
@@ -24,46 +24,56 @@ if (!empty($_POST['submit'])) {
 	
 	if (empty($_POST['username']) || empty($_POST['password'])) 
 		$error_msg = 'Username and password are required.';
-	else {		//Google reCaptcha response		//If it returns 1, recaptcha is verified. Otherwise recaptcha failed to verify.		//$recaptcha_verified = verify_recaptcha($_POST['g-recaptcha-response']);
-			$reURL = 'https://www.google.com/recaptcha/api/siteverify';	$reSecret   = '6Lc6NAkUAAAAAAcj88X-P6mihhqXr9zzcJe0_LQB';	$reResponse = $_POST['g-recaptcha-response'];	$reSubmission = json_decode(file_get_contents($reURL."?secret=".$reSecret."&response=".$reResponse), true);				if($reSubmission['success'] != 1){			$error_msg = 'Please verify captcha.';		}
-	$user = sanitize($_POST['username']);
-	$password = sanitize($_POST['password']);
-
-	$result = $db->select("SELECT Password FROM user WHERE EmailAddress = '$user' AND UserType != 'User'");
-
-	if ($result['Password'] != "") {
-		
-		$valid = ($password == $result['Password']) ? 1 : 0;
+	else {		
 	
-		if ($valid == 0)
-			$error_msg = 'Invalid user or password';
-	}
-	else
-		$error_msg = 'Invalid user or password';
-	
-	
-	if ($error_msg == '') {
-		
-	      $_SESSION['logged_in'] = true;
-		
-		  // get all the details of the user
-		
-		  $details = $db->select("SELECT * FROM user WHERE EmailAddress='$user' AND UserType != 'User'");
-		  $_SESSION['user_info'] = $details;
-		  $_SESSION['userid'] = $details['id'];
-	
-		// setting cookie (for 30 days) if remember is checked 
-		if(isset($_POST['remember'])) {
-		
-			 $cookie_value = md5($user . uniqid(time()));
-		     setcookie('autologin',$cookie_value,time() + (3600 * 24 * 30));
-			 
-			 $db->query("UPDATE users SET cookie='$cookie_value' WHERE username='$user' AND UserType != 'User'") or die($db->error());
+		//Google reCaptcha response		
+		//If it returns 1, recaptcha is verified. Otherwise recaptcha failed to verify.		
+		//$recaptcha_verified = verify_recaptcha($_POST['g-recaptcha-response']);
+		if(ENVIRONMENT === 'PRODUCTION'){	
+			$reURL = 'https://www.google.com/recaptcha/api/siteverify';	
+			$reResponse = $_POST['g-recaptcha-response'];	
+			$reSubmission = json_decode(file_get_contents($reURL."?secret=".RECAPTCHA_SECRET_KEY."&response=".$reResponse), true);				
+			if($reSubmission['success'] != 1){			
+				$error_msg = 'Please verify captcha.';		
+			}
 		}
+		$user = sanitize($_POST['username']);
+		$password = sanitize($_POST['password']);
+
+		$result = $db->select("SELECT Password FROM user WHERE EmailAddress = '$user' AND UserType != 'User'");
+
+		if ($result['Password'] != "") {
+			
+			$valid = ($password == $result['Password']) ? 1 : 0;
 		
-		header("Location: index.php");
-	}
-	
+			if ($valid == 0)
+				$error_msg = 'Invalid user or password';
+		}
+		else
+			$error_msg = 'Invalid user or password';
+		
+		
+		if ($error_msg == '') {
+			
+			  $_SESSION['logged_in'] = true;
+			
+			  // get all the details of the user
+			
+			  $details = $db->select("SELECT * FROM user WHERE EmailAddress='$user' AND UserType != 'User'");
+			  $_SESSION['user_info'] = $details;
+			  $_SESSION['userid'] = $details['id'];
+		
+			// setting cookie (for 30 days) if remember is checked 
+			if(isset($_POST['remember'])) {
+			
+				 $cookie_value = md5($user . uniqid(time()));
+				 setcookie('autologin',$cookie_value,time() + (3600 * 24 * 30));
+				 
+				 $db->query("UPDATE users SET cookie='$cookie_value' WHERE username='$user' AND UserType != 'User'") or die($db->error());
+			}
+			
+			header("Location: index.php");
+		}	
 	}
 }
 ?>
@@ -114,7 +124,9 @@ if (!empty($_POST['submit'])) {
 				DD_belatedPNG.fix('.png_bg, img, li');
 			</script>
 		<![endif]-->
+		<?php if(ENVIRONMENT === 'PRODUCTION'){ ?>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<?php } ?>
 	</head>
   
 	<body id="login">
@@ -148,7 +160,12 @@ if (!empty($_POST['submit'])) {
 					<p>
 						<label>Password</label>
 						<input class="text-input" type="password" name="password" />
-					</p>					<div class="clear"></div>					<div class="g-recaptcha" data-sitekey="6Lc6NAkUAAAAAK3PH-gqxAGGDnWXwk2uBCS8-ujN"></div>					
+					</p>					<div class="clear"></div>					
+					
+					<?php if(ENVIRONMENT === 'PRODUCTION'){ ?>
+					<div class="g-recaptcha" data-sitekey="6Lc6NAkUAAAAAK3PH-gqxAGGDnWXwk2uBCS8-ujN"></div>					
+					<?php } ?>
+					
 					<div class="clear"></div>					
 					<p id="remember-password">
 						<input type="checkbox"  name="remember"/>Remember me

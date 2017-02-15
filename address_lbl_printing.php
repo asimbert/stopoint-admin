@@ -2,6 +2,8 @@
 error_reporting(0);
 ob_start();
 session_start();
+
+require_once('init/init.php');
 ?>
 
 <style>
@@ -109,7 +111,7 @@ if($_POST['simple_spc']<>'')
 							$_SESSION['from_phone']=$from_phone;
 							$_SESSION['form_company']=$form_company;
 							
-							$link="https://www.stopoint.com/stopointsxgdlj123/address_lbl_generation.php?to_company=$to_company&to_name=$to_name&to_address=$to_address&to_city=$to_city&to_state=$to_state&to_zip_code=$to_zip_code&to_phone=$to_phone&from_name=$from_name&from_address=$f_address&from_city=$from_city&from_state=$from_state&from_zip_code=$from_zip_code&from_phone=$from_phone&form_company=$form_company";
+							$link=CONFIG_BASE_URL . "/address_lbl_generation.php?to_company=$to_company&to_name=$to_name&to_address=$to_address&to_city=$to_city&to_state=$to_state&to_zip_code=$to_zip_code&to_phone=$to_phone&from_name=$from_name&from_address=$f_address&from_city=$from_city&from_state=$from_state&from_zip_code=$from_zip_code&from_phone=$from_phone&form_company=$form_company";
 							//echo "<a href='".$link."'>Download Now</a>";
 						}
 					else {?> <div class="alert-danger"><strong>Error! in From Address :</strong> <? print_r($from_verify->getErrorMessage()); $eflag=true;?></div><? }

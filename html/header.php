@@ -1,8 +1,9 @@
 <?php
 
-require_once('/home/stopoint/public_html/stopointsxgdlj123/allow-access.php');
+require_once('init/init.php');
+require_once(CONFIG_HOME_DIR . '/allow-access.php');
 
-$base_url = "https://www.stopoint.com/stopointsxgdlj123";
+$base_url = CONFIG_BASE_URL;
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
