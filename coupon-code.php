@@ -1,5 +1,5 @@
 <?php
-include "header.php";
+include "html/header.php";
 ?>
 
 <!-- slider -->
@@ -54,5 +54,5 @@ while($rows = mysql_fetch_array($query))
 <!-- end slider -->
 <br>
 <?php
-include "footer.php";
+include "html/footer.php";
 ?>

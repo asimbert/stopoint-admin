@@ -2,8 +2,8 @@
 //error_reporting(E_ALL);
 //ini_set('display_errors', 1);
 session_start();
-require_once('../fedex-common.php5');
-$path_to_wsdl = "../ShipService_v15.wsdl";
+require_once('fedex-common.php5');
+$path_to_wsdl = "ShipService_v15.wsdl";
 
 function addShipper(){
 
@@ -175,7 +175,7 @@ try
 					//define image path
 					fclose($fp);
 					
-					require_once('../tcpdf.php');
+					require_once('tcpdf.php');
 					$pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
 					$pdf->AddPage();
 					// set document information

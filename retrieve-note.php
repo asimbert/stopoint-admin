@@ -2,11 +2,6 @@
 session_start();
 ob_start();
 
-if (stristr($_SERVER["SCRIPT_FILENAME"], 'stopointsxgdlj123') !== false && !isset($_SESSION['logged_in'])) {
-	header('Location: login.php');
-	die();
-} 
-
 require_once(dirname(__FILE__) . '/inc/core.php');
 
 require_once(dirname(__FILE__) . '/classes/class.table_form.php');

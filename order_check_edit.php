@@ -4,8 +4,8 @@ require_once(dirname(__FILE__) . '/inc/core.php');
 
 require_once(dirname(__FILE__) . '/classes/class.table_form.php');
 
-require_once('../fedex-common.php5');
-$path_to_wsdl = "../ShipService_v15.wsdl";
+require_once('fedex-common.php5');
+$path_to_wsdl = "ShipService_v15.wsdl";
 
 function addShipper(){
 	
@@ -399,7 +399,7 @@ if (isset($_POST['submit'])) {
 				$message .= '<p>Thanks</p>';
 				$message .= '<p>From: STOPOINT</p>';
 				$message .= '</body></html>';
-			 require_once '../PHPMailer-master/PHPMailerAutoload.php';
+			 require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -555,7 +555,7 @@ mysql_query("INSERT INTO tp_review_email_reminder (order_id, user_id, count, sta
 $subjectreview = "Your opinion matters to stopoint.com";
 $txtreview = $messagereview;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mailreview = new PHPMailer();
 		$mailreview->IsSMTP();
 		$mailreview->SMTPAuth = true;
@@ -592,7 +592,7 @@ require_once '../PHPMailer-master/PHPMailerAutoload.php';
 				
 				$subject = "We have released payment for your ".$roworder1['ProductDescription'];
 				$txt = $message;
-				require_once '../PHPMailer-master/PHPMailerAutoload.php';
+				require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -836,7 +836,7 @@ $txtreview = $messagereview;
 
 mysql_query("INSERT INTO tp_review_email_reminder (order_id, user_id, count, status) VALUES($id, $userid, 1, 1)");
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mailreview = new PHPMailer();
 		$mailreview->IsSMTP();
 		$mailreview->SMTPAuth = true;
@@ -868,7 +868,7 @@ require_once '../PHPMailer-master/PHPMailerAutoload.php';
 			 
 $subject = "We have released payment for your ".$roworder['ProductDescription'];
 $txt = $message;
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -998,7 +998,7 @@ $roworder = mysql_fetch_assoc($rowsorder);
 			 
 $subject = "Urgent: Action Required on Your ".$roworder['ProductDescription'];
 $txt = $message;
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -1133,7 +1133,7 @@ if($_POST['OrderStatus'] == 9)
 		$message = str_replace('%help%', $help, $message);
 		$subject = "We have returned your ".$roworder['ProductDescription']." back to you";
 		$txt = $message;
-		require_once '../PHPMailer-master/PHPMailerAutoload.php';
+		require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -1214,7 +1214,7 @@ FROM `order` INNER JOIN `product` ON product.ProductCode=order.ProductId INNER J
 	$message = str_replace('%help%', $help, $message);
 	$subject = "We have returned your ".$roworder['ProductDescription']." back to you";
 	$txt = $message;
-	require_once '../PHPMailer-master/PHPMailerAutoload.php';
+	require_once 'PHPMailer-master/PHPMailerAutoload.php';
 	$mail = new PHPMailer();
 	$mail->IsSMTP();
 	$mail->SMTPAuth = true;
@@ -1307,7 +1307,7 @@ $email_from = "info@stopoint.com";
 $subject = "We Received Your ".$roworder['ProductDescription'];
 $txt = $message;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsHTML(true);
 		$mail->CharSet = "text/html; charset=UTF-8;";
@@ -1426,7 +1426,7 @@ $email_from = "info@stopoint.com";
 $subject = "Urgent: Action Required on Your ".$roworder['ProductDescription'];
 $txt = $message;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsHTML(true);
 		$mail->CharSet = "text/html; charset=UTF-8;";
@@ -1538,7 +1538,7 @@ $email_from = "info@stopoint.com";
 $subject = "Urgent: Action Required on Your ".$roworder['ProductDescription'];
 $txt = $message;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsHTML(true);
 		$mail->CharSet = "text/html; charset=UTF-8;";
@@ -1682,7 +1682,7 @@ $email_from = "info@stopoint.com";
 $subject = "Important Information Concerning Your ".$roworder['ProductDescription']." for blacklisted";
 $txt = $message;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsHTML(true);
 		$mail->CharSet = "text/html; charset=UTF-8;";
@@ -2785,7 +2785,7 @@ while($wemessage1=mysql_fetch_array($remessage))
 		while($weadmin=mysql_fetch_array($readmin))
 		{?>
 			<p style="margin-left:50px; height:100px;">
-				<span style="font-size:14px"><img height="50" width="50" src="../images/users/<?php echo $weadmin['image']; ?>" style="border-radius:50%; float:left;" width="45px" height="45px" /></span>
+				<span style="font-size:14px"><img height="50" width="50" src="images/users/<?php echo $weadmin['image']; ?>" style="border-radius:50%; float:left;" width="45px" height="45px" /></span>
 				<span style="margin-left:15px;"><?php echo $weadmin['Date']; ?><br />	
 					<label style="font-size:14px; font-weight:bold; margin-left:15px;">Comments : </label>
 					<span style="font-size:14px"> <?php echo $weadmin['Comments']; ?></span>

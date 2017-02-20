@@ -10,9 +10,9 @@ require_once(dirname(__FILE__) . '/classes/class.table_form.php');
 
 
 
-require_once('../fedex-common.php5');
+require_once('fedex-common.php5');
 
-$path_to_wsdl = "../ShipService_v15.wsdl";
+$path_to_wsdl = "ShipService_v15.wsdl";
 
 
 
@@ -242,7 +242,7 @@ function addPackageLineItem1(){
 
 
 
-define('SHIP_LABEL', '/home/stopoint/public_html/stopointsxgdlj123/returnlabels/label_'.$orderid.'.png');  // PNG label file. Change to file-extension .pdf for creating a PDF label (e.g. shiplabel.pdf)
+define('SHIP_LABEL', 'returnlabels/label_'.$orderid.'.png');  // PNG label file. Change to file-extension .pdf for creating a PDF label (e.g. shiplabel.pdf)
 
 			
 

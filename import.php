@@ -3512,7 +3512,7 @@ if (isset($_POST['submit'])) {
 
 	
 
-	$uploaddir = '/home/stopoint/public_html/Stopoint';
+	$uploaddir = '';
 
 $uploadfile = $uploaddir . basename($_FILES['excel']['name']);
 

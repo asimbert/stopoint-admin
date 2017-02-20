@@ -64,7 +64,7 @@ if(isset($_POST['email']) && $_POST['email'] !== '' && isset($_POST['amount']) &
 		$status = $httpParsedResponseAr["ACK"];
 		mysql_query("INSERT INTO paymentlogs (`paypal_email`,`amount`,`description`,`status`,`transactionid`,`addedby`,`dateadded`) VALUES('$paypal_email','$amount','$description','$status','$transactionid','$addedby','$dateadded')") or die(mysql_error());	
 
-		header("Location: https://www.stopoint.com/stopointsxgdlj123/paypal-payment?success");
+		header("Location: paypal-payment?success");
 	}
 	else
 	{
@@ -74,7 +74,7 @@ if(isset($_POST['email']) && $_POST['email'] !== '' && isset($_POST['amount']) &
 	 
 	 $paypal_error = $httpParsedResponseAr;
 		
-		header("Location: https://www.stopoint.com/stopointsxgdlj123/paypal-payment?failed");
+		header("Location: paypal-payment?failed");
 	}		
 }
 

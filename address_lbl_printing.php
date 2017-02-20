@@ -44,12 +44,12 @@ if($_POST['simple_spc']<>'')
 		$to_address=$to_address_one." ".$to_address_two;	
 		$to_name=$to_first_name." ".$to_last_name;
 		
-		require_once('../USPSAddressVerify.php');
-		$verify = new USPSAddressVerify('810YGTSO2254');
+		require_once('USPSAddressVerify.php');
+		$verify = new USPSAddressVerify(USPS_ADDRESS_VERIFY_KEY);
 		
 		$address = new USPSAddress;
 		$address->setFirmName($to_name);
-		$address->setApt('100');
+		$address->setApt(USPS_ADDRESS_VERIFY_APT);
 		$address->setAddress($to_address);
 		$address->setCity($to_city);
 		$address->setState($to_state);
@@ -70,13 +70,13 @@ if($_POST['simple_spc']<>'')
 				
 		
 					// From address verification
-					$from_verify = new USPSAddressVerify('810YGTSO2254');
+					$from_verify = new USPSAddressVerify(USPS_ADDRESS_VERIFY_KEY);
 					$from_name=$from_first_name." ".$from_last_name;
 					$f_address=$from_addresss_one." ".$from_address_two;
 					
 					$from_address = new USPSAddress;
 					$from_address->setFirmName($from_name);
-					$from_address->setApt('100');
+					$from_address->setApt(USPS_ADDRESS_VERIFY_APT);
 					$from_address->setAddress($f_address);
 					$from_address->setCity($from_city);
 					$from_address->setState($from_state);
