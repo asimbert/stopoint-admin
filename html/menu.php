@@ -103,6 +103,8 @@ if (mysql_num_rows($reroles) != 0) {
 ?>                    paid-order.php                    <?php
             }else if ($wesubroles['RoleName'] == 'Release-Bulk PayPal Orders') {
 ?>                    paid-order.php?payment_method=1                    <?php
+            }else if ($wesubroles['RoleName'] == 'IMEI Inspection') {
+?>                    order.php?key=imei-inspection&sort=DatePaid&desc                    <?php
             }
 			 else {
 ?>                    order.php?key=<?php
@@ -323,7 +325,31 @@ if (mysql_num_rows($reroles) != 0) {
 		</li>
 	<?php
 	}
-?>  
+?>
+
+<?php
+    $vassubroles = "SELECT * FROM `roles` LEFT JOIN userroles on userroles.RoleId = roles.id 
+	WHERE ( userroles.UserId = ".$_SESSION['user_info']['id']." AND roles.ParentId = 66 )";
+    $resubroles  = mysql_query($vassubroles);
+	if (mysql_num_rows($resubroles) == 0) {
+	} else { ?>
+		 <li>
+		 	<a href="#" class="nav-top-item">Payment</a> 
+			<ul>
+				 <?php
+				 	while ($wesubroles = mysql_fetch_array($resubroles))
+					{
+						 if ($wesubroles['RoleName'] == 'PayPal Payment') { ?>
+							<li><a href="paypal-payment.php"><?= $wesubroles['RoleName'] ?></a></li>
+						<?php }
+						
+						?>
+				<?php } ?>
+			</ul>
+		</li>
+	<?php
+	}
+?>
      
 
                       </ul> <!-- End #main-nav -->                </div></div> <!-- End #sidebar -->

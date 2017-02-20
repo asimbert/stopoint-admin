@@ -17,7 +17,7 @@ $key1 = $_GET['key'];
 $vasname1 = "SELECT * FROM `user` WHERE id = '".$_SESSION['userid']."'";
 $rename1=mysql_query($vasname1);								
 $wename1=mysql_fetch_assoc($rename1);
-if($_GET['key'] == 'adjusted' || $_GET['key'] == 'release' || $_GET['key'] == 'all' || $_GET['key'] == 'paid' || $_GET['key'] == 'returned' || $_GET['key'] == 'imei' || $_GET['key'] == 'adjusted-price' )
+if($_GET['key'] == 'adjusted' || $_GET['key'] == 'release' || $_GET['key'] == 'all' || $_GET['key'] == 'paid' || $_GET['key'] == 'returned' || $_GET['key'] == 'imei' || $_GET['key'] == 'adjusted-price' || $_GET['key'] == 'imei-inspection' )
 {
 	$table->addField('Adjusted Price', 'AdjustedAmount', false, '', '');
 }
@@ -195,6 +195,12 @@ else if($_GET['key'] == 'blacklisted')
 }else if($_GET['key'] == 'adjusted-price')
 {?>
 	<a href=""><h2> Adjusted Price Inspection Orders</h2></a><?php	
+}else if($_GET['key'] == 'imei-inspection')
+{?>
+	<a href=""><h2> IMEI Inspection Orders</h2></a><?php	
+}else if($_GET['key'] == 'recycle')
+{?>
+	<a href=""><h2> Recycle Orders</h2></a><?php	
 }?><br>
 <div style="padding: 4px;width: auto;">
 	<?php $table->search_new();?>
@@ -361,6 +367,10 @@ if($_GET['success']== "error")
 					$where = 'OrderStatus = 14';}
 				else if($_GET['key'] == 'adjusted-price'){
 					$where = 'OrderStatus = 15';}
+				else if($_GET['key'] == 'imei-inspection'){
+					$where = 'OrderStatus = 16';}
+				else if($_GET['key'] == 'recycle'){
+					$where = 'OrderStatus = 17';}
 				else{
 					//	$where = 'id <> 1';
 				}
@@ -1153,7 +1163,157 @@ Started code for Order Status starting from 11 till 14
 												if($value == 12){ echo html_entity_decode(stripslashes('IMEI Check'));}
 												if($value == 13){ echo html_entity_decode(stripslashes('Activation Lock Inspection'));}
 												if($value == 14){ echo html_entity_decode(stripslashes('Blacklisted'));}
-												if($value == 15){ echo html_entity_decode(stripslashes('Adjusted Price Inspection'));}?><?php
+												if($value == 15){ echo html_entity_decode(stripslashes('Adjusted Price Inspection'));}
+												if($value == 16){ echo html_entity_decode(stripslashes('IMEI Inspection'));}
+												if($value == 17){ echo html_entity_decode(stripslashes('Recycle'));}?><?php
+											}
+											else if($key == "ProductId")
+											{ ?><?php
+												$vasproduct = "SELECT * FROM `product` WHERE ProductCode = ".$value;
+												$reproduct=mysql_query($vasproduct);
+												$weproduct=mysql_fetch_assoc($reproduct);
+												echo html_entity_decode(stripslashes($weproduct['ProductCode']));?>
+												</td><!--<td> <?php //echo html_entity_decode(stripslashes($weproduct['Generation'])); ?></td>-->
+												<td><?php  echo html_entity_decode(stripslashes($weproduct['Description'])); ?></td><?php
+											}
+											else if($key== "Condition")
+											{
+												if($value == 1)
+												{ echo "Fair";}
+												else if($value == 2){ echo "Good";}
+												else if($value == 4){ echo "Broken(Yes)";}
+												else if($value == 5){ echo "Broken(No)";}
+												else{ echo "Flawless";}
+											}
+											else if($key== "OrderDate")
+											{
+												$value = date('m/d/Y h:i A', strtotime($value));
+												echo $value;
+											}
+											else { ?><?php echo html_entity_decode(stripslashes($value)); ?><?php } ?>
+											</td><?php #echo html_entity_decode(stripslashes($value)); ?></td>
+										<?php endif; ?><?php 
+									} ?>
+                                    <td>
+									<a href="<?php echo edit_url(urlencode($table->current_id))." &key=".$key1; ?>" title="Edit"><img src="<?=$base_url; ?>/images/icons/pencil.png" alt="Edit" /></a>
+									<a href="<?=$baseurl; ?>pdffile.php?id=<?=$row['TrackingCode']?>" target="_blank"><img class="t-icon" src="<?=$baseurl; ?>images/t-icon4.png" title="Packing List" alt="Icon"/></a><?php
+									if($wename1['UserType']=='Super Admin')
+									{?>
+										<a class="confirm_link" id="delete_link" href="<?=$_SERVER['PHP_SELF']?>?delete=<?php echo urlencode($table->current_id);?>&key=<?=$key1?>&desc" onclick="return confirm('Are you sure?')" title="Delete"><img src="<?php echo $base_url; ?>/images/icons/cross.png" alt="Delete" /></a><?php
+									}?>
+									</td>
+									</tr><?php
+									}
+									
+								else if($_GET['key'] == 'imei-inspection' && $row['OrderStatus'] == 16)
+								{ ?>
+									<tr id="events_<?=$row['id']?>">
+                                    <td><input type="checkbox" name="checkbox[]" value="<?=$row['id']?>"></td>
+									<?php  
+									foreach ($row as $key => $value) 
+									{ ?><?php 
+										if ($key != 'id'): ?>
+											<td><?php
+											if($key == "UserId")
+											{
+												$vasname = "SELECT * FROM `user` WHERE FirstName = '".$value."'";
+												$rename=mysql_query($vasname);
+												$wename=mysql_fetch_assoc($rename);
+												echo html_entity_decode(stripslashes($wename['FirstName'].' '.$wename['LastName']));
+											}
+											else if($key == "OrderStatus")
+											{ ?><?php
+												if($value == 1){ echo html_entity_decode(stripslashes('Pending'));} 
+												if($value == 2){echo html_entity_decode(stripslashes('Received'));}
+												if($value == 3){echo html_entity_decode(stripslashes('Adjusted Price'));}
+												if($value == 4){echo html_entity_decode(stripslashes('Returned Order'));}
+												if($value == 5){ echo html_entity_decode(stripslashes('Release Payment'));}
+												if($value == 6){ echo html_entity_decode(stripslashes('Paid'));}
+												if($value == 7){ echo html_entity_decode(stripslashes('Cancelled'));}
+												if($value == 9){ echo html_entity_decode(stripslashes('Return Completed'));}
+												if($value == 8){ echo html_entity_decode(stripslashes('Expired'));}
+												if($value == 10){ echo html_entity_decode(stripslashes('Activation Locked'));}
+												if($value == 11){ echo html_entity_decode(stripslashes('Installment payment'));}
+												if($value == 12){ echo html_entity_decode(stripslashes('IMEI Check'));}
+												if($value == 13){ echo html_entity_decode(stripslashes('Activation Lock Inspection'));}
+												if($value == 14){ echo html_entity_decode(stripslashes('Blacklisted'));}
+												if($value == 15){ echo html_entity_decode(stripslashes('Adjusted Price Inspection'));}
+												if($value == 16){ echo html_entity_decode(stripslashes('IMEI Inspection'));}
+												if($value == 17){ echo html_entity_decode(stripslashes('Recycle'));}?><?php
+											}
+											else if($key == "ProductId")
+											{ ?><?php
+												$vasproduct = "SELECT * FROM `product` WHERE ProductCode = ".$value;
+												$reproduct=mysql_query($vasproduct);
+												$weproduct=mysql_fetch_assoc($reproduct);
+												echo html_entity_decode(stripslashes($weproduct['ProductCode']));?>
+												</td><!--<td> <?php //echo html_entity_decode(stripslashes($weproduct['Generation'])); ?></td>-->
+												<td><?php  echo html_entity_decode(stripslashes($weproduct['Description'])); ?></td><?php
+											}
+											else if($key== "Condition")
+											{
+												if($value == 1)
+												{ echo "Fair";}
+												else if($value == 2){ echo "Good";}
+												else if($value == 4){ echo "Broken(Yes)";}
+												else if($value == 5){ echo "Broken(No)";}
+												else{ echo "Flawless";}
+											}
+											else if($key== "OrderDate")
+											{
+												$value = date('m/d/Y h:i A', strtotime($value));
+												echo $value;
+											}
+											else { ?><?php echo html_entity_decode(stripslashes($value)); ?><?php } ?>
+											</td><?php #echo html_entity_decode(stripslashes($value)); ?></td>
+										<?php endif; ?><?php 
+									} ?>
+                                    <td>
+									<a href="<?php echo edit_url(urlencode($table->current_id))." &key=".$key1; ?>" title="Edit"><img src="<?=$base_url; ?>/images/icons/pencil.png" alt="Edit" /></a>
+									<a href="<?=$baseurl; ?>pdffile.php?id=<?=$row['TrackingCode']?>" target="_blank"><img class="t-icon" src="<?=$baseurl; ?>images/t-icon4.png" title="Packing List" alt="Icon"/></a><?php
+									if($wename1['UserType']=='Super Admin')
+									{?>
+										<a class="confirm_link" id="delete_link" href="<?=$_SERVER['PHP_SELF']?>?delete=<?php echo urlencode($table->current_id);?>&key=<?=$key1?>&desc" onclick="return confirm('Are you sure?')" title="Delete"><img src="<?php echo $base_url; ?>/images/icons/cross.png" alt="Delete" /></a><?php
+									}?>
+									</td>
+									</tr><?php
+									}
+									
+								else if($_GET['key'] == 'recycle' && $row['OrderStatus'] == 17)
+								{ ?>
+									<tr id="events_<?=$row['id']?>">
+                                    <td><input type="checkbox" name="checkbox[]" value="<?=$row['id']?>"></td>
+									<?php  
+									foreach ($row as $key => $value) 
+									{ ?><?php 
+										if ($key != 'id'): ?>
+											<td><?php
+											if($key == "UserId")
+											{
+												$vasname = "SELECT * FROM `user` WHERE FirstName = '".$value."'";
+												$rename=mysql_query($vasname);
+												$wename=mysql_fetch_assoc($rename);
+												echo html_entity_decode(stripslashes($wename['FirstName'].' '.$wename['LastName']));
+											}
+											else if($key == "OrderStatus")
+											{ ?><?php
+												if($value == 1){ echo html_entity_decode(stripslashes('Pending'));} 
+												if($value == 2){echo html_entity_decode(stripslashes('Received'));}
+												if($value == 3){echo html_entity_decode(stripslashes('Adjusted Price'));}
+												if($value == 4){echo html_entity_decode(stripslashes('Returned Order'));}
+												if($value == 5){ echo html_entity_decode(stripslashes('Release Payment'));}
+												if($value == 6){ echo html_entity_decode(stripslashes('Paid'));}
+												if($value == 7){ echo html_entity_decode(stripslashes('Cancelled'));}
+												if($value == 9){ echo html_entity_decode(stripslashes('Return Completed'));}
+												if($value == 8){ echo html_entity_decode(stripslashes('Expired'));}
+												if($value == 10){ echo html_entity_decode(stripslashes('Activation Locked'));}
+												if($value == 11){ echo html_entity_decode(stripslashes('Installment payment'));}
+												if($value == 12){ echo html_entity_decode(stripslashes('IMEI Check'));}
+												if($value == 13){ echo html_entity_decode(stripslashes('Activation Lock Inspection'));}
+												if($value == 14){ echo html_entity_decode(stripslashes('Blacklisted'));}
+												if($value == 15){ echo html_entity_decode(stripslashes('Adjusted Price Inspection'));}
+												if($value == 16){ echo html_entity_decode(stripslashes('IMEI Inspection'));}
+												if($value == 17){ echo html_entity_decode(stripslashes('Recycle'));}?><?php
 											}
 											else if($key == "ProductId")
 											{ ?><?php
@@ -1281,7 +1441,9 @@ End code for Order Status starting from 11 till 15
 												if($value == 12){ echo html_entity_decode(stripslashes('IMEI Check'));}
 												if($value == 13){ echo html_entity_decode(stripslashes('Activation Lock Inspection'));}
 												if($value == 14){ echo html_entity_decode(stripslashes('Blacklisted'));}
-												if($value == 15){ echo html_entity_decode(stripslashes('Adjusted Price Inspection'));}?><?php
+												if($value == 15){ echo html_entity_decode(stripslashes('Adjusted Price Inspection'));}
+												if($value == 16){ echo html_entity_decode(stripslashes('IMEI Inspection'));}
+												if($value == 17){ echo html_entity_decode(stripslashes('Recycle'));}?><?php
 											}
 											else if($key == "ProductId")
 											{ ?><?php

@@ -165,7 +165,7 @@ else if(isset($_POST['orderid'])){
 			
 			$orderpaid = date('Y-m-d H:i:s');
 			
-			add_orderlog($_GET['id'],6);
+			add_orderlog($orderid,6,1);
 			
 			$queryhistory = "UPDATE `orderstatushistory` SET `orderid` = ".$orderid.", `datepaid`='".$orderpaid."' WHERE orderid=".$orderid;
 		

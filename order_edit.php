@@ -106,7 +106,7 @@ if($action == "edit" && $id) {
 
 }
 
-
+$current_status = orderstatus_by_id($id);
 
 $vas = "SELECT * FROM `order` WHERE id=".$_GET['id'];
 $re=mysql_query($vas);
@@ -137,7 +137,7 @@ $form->add_text('Order Amount : ', 'OrderAmount');
 $form->add_text('Order Date : ', 'OrderDate');
 
 if($_GET['key'] == 'all'){
-$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'Pending','value'=>'1'),array('name'=>'Received','value'=>'2'),array('name'=>'Adjusted Price','value'=>'3'),array('name'=>'Return Order','value'=>'4'),array('name'=>'Release Payment','value'=>'5'),array('name'=>'Pay Order','value'=>'6'),array('name'=>'Cancelled','value'=>'7'),array('name'=>'Expired Order','value'=>'8'),array('name'=>'Return Completed','value'=>'9'),array('name'=>'Activation Lock','value'=>'10'),array('name'=>'Installment payment','value'=>'11'),array('name'=>'IMEI Check','value'=>'12'),array('name'=>'Activation Lock Inspection','value'=>'13'),array('name'=>'Blacklisted','value'=>'14'),array('name'=>'Adjusted Price Inspection','value'=>'15')));
+$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'Pending','value'=>'1'),array('name'=>'Received','value'=>'2'),array('name'=>'Adjusted Price','value'=>'3'),array('name'=>'Return Order','value'=>'4'),array('name'=>'Release Payment','value'=>'5'),array('name'=>'Pay Order','value'=>'6'),array('name'=>'Cancelled','value'=>'7'),array('name'=>'Expired Order','value'=>'8'),array('name'=>'Return Completed','value'=>'9'),array('name'=>'Activation Lock','value'=>'10'),array('name'=>'Installment payment','value'=>'11'),array('name'=>'IMEI Check','value'=>'12'),array('name'=>'Activation Lock Inspection','value'=>'13'),array('name'=>'Blacklisted','value'=>'14'),array('name'=>'Adjusted Price Inspection','value'=>'15'),array('name'=>'IMEI Inspection','value'=>'16'),array('name'=>'Recycle','value'=>'17')));
 
 if($we['AdjustedAmount'] != ""){
 if($we['OrderStatus'] == 5 || $we['OrderStatus'] == 6){
@@ -164,7 +164,7 @@ else if($_GET['key'] == 'activation')
 	//Commented for Release paymnt will be replaced by Activation Lock Inspection
 	//$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'Release Payment','value'=>'5'),array('name'=>'Adjusted Price','value'=>'3'),array('name'=>'Return Order','value'=>'4'))); 
 	
-	$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'Activation Lock Inspection','value'=>'13'),array('name'=>'Adjusted Price','value'=>'3'),array('name'=>'Return Order','value'=>'4'))); 
+	$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'Activation Lock Inspection','value'=>'13'),array('name'=>'Adjusted Price','value'=>'3'),array('name'=>'Return Order','value'=>'4'),array('name'=>'Recycle','value'=>'17'))); 
 	
 }
 
@@ -209,7 +209,7 @@ $form->add_text('Adjusted Price : ', 'AdjustedAmount');
 
 else if($_GET['key'] == 'imei')
 {
-	$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'Unlock - Release Payment','value'=>'5'),array('name'=>'Installment payment','value'=>'11'),array('name'=>'Blacklisted','value'=>'14'))); 
+	$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'IMEI Inspection','value'=>'16'),array('name'=>'Installment payment','value'=>'11'),array('name'=>'Blacklisted','value'=>'14'))); 
 	
 		if($we['AdjustedAmount'] != ""){
 if($we['OrderStatus'] == 5 || $we['OrderStatus'] == 6){
@@ -223,7 +223,7 @@ $form->add_text('Adjusted Price : ', 'AdjustedAmount');
 
 else if($_GET['key'] == 'installment')
 {
-	$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'IMEI Check','value'=>'12'),array('name'=>'Return Order','value'=>'4'))); 
+	$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'IMEI Check','value'=>'12'),array('name'=>'Return Order','value'=>'4'),array('name'=>'Recycle','value'=>'17'))); 
 	
 }
 
@@ -235,7 +235,7 @@ else if($_GET['key'] == 'activation-lock')
 
 else if($_GET['key'] == 'blacklisted')
 {
-	$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'Return Order','value'=>'4'))); 
+	$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'Return Order','value'=>'4'),array('name'=>'Recycle','value'=>'17'))); 
 	
 }
 
@@ -252,6 +252,18 @@ $form->add_text('Adjusted Price : ', 'AdjustedAmount');
 }
 }
 
+else if($_GET['key'] == 'imei-inspection')
+{
+	$form->add_dropdown('Order Status','OrderStatus',array(array('name'=>'Release Payment','value'=>'5'), array('name'=>'Activation Lock','value'=>'10'),array('name'=>'Adjusted Price','value'=>'3'),array('name'=>'Return Order','value'=>'4'))); 
+	
+	if($we['AdjustedAmount'] != ""){
+	if($we['OrderStatus'] == 5 || $we['OrderStatus'] == 6){
+	$form->add_text('Adjusted Price : ', 'AdjustedAmount');
+	}else{
+	$form->add_text('Adjusted Price : ', 'AdjustedAmount');
+	}
+	}
+}
 $form->add_text('Product Serial# : ', 'ProductSerial');
 if($action == "edit" && $id) {
 
@@ -319,7 +331,7 @@ $userid = $weuser['id'];
 		mysql_query("UPDATE ordertrasactions SET active=0 WHERE OrderId=$id AND active=1");
 				mysql_query("INSERT INTO ordertrasactions (`OrderId`,`UserId`,`PaidById`,`AmountPaid`,`PaymentMethod`,`ChequeNumber`,`TransactionId`) VALUES('$orderid','$userid',10,'$orderamount','$paymentmethod','$checknumber','$transactionid')") or die(mysql_error());
 			$orderpaid = date('Y-m-d H:i:s');
-			add_orderlog($_GET['id'],6);
+			add_orderlog($_GET['id'],6,$current_status);
 			 $queryhistory = "UPDATE `orderstatushistory` SET `orderid` = ".$_GET['id'].", `datepaid`='".$orderpaid."' WHERE orderid=".$_GET['id'];
 	
 			$orderhistory = mysql_query($queryhistory) or die(mysql_error());
@@ -400,7 +412,7 @@ if (isset($_POST['submit'])) {
 				$message .= '<p>Thanks</p>';
 				$message .= '<p>From: STOPOINT</p>';
 				$message .= '</body></html>';
-			 require_once '../PHPMailer-master/PHPMailerAutoload.php';
+			 require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -556,7 +568,7 @@ mysql_query("INSERT INTO tp_review_email_reminder (order_id, user_id, count, sta
 $subjectreview = "Your opinion matters to stopoint.com";
 $txtreview = $messagereview;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mailreview = new PHPMailer();
 		$mailreview->IsSMTP();
 		$mailreview->SMTPAuth = true;
@@ -593,7 +605,7 @@ require_once '../PHPMailer-master/PHPMailerAutoload.php';
 				
 				$subject = "We have released payment for your ".$roworder1['ProductDescription'];
 				$txt = $message;
-				require_once '../PHPMailer-master/PHPMailerAutoload.php';
+				require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -625,7 +637,7 @@ require_once '../PHPMailer-master/PHPMailerAutoload.php';
 				mysql_query("INSERT INTO ordertrasactions (`OrderId`,`UserId`,`PaidById`,`AmountPaid`,`PaymentMethod`,`ChequeNumber`,`TransactionId`) VALUES('$orderid','$userid',10,'$orderamount','$paymentmethod','$chequenumber','$transactionid')") or die(mysql_error());
 			$orderpaid = date('Y-m-d H:i:s');
 			
-			add_orderlog($_GET['id'],6);
+			add_orderlog($_GET['id'],6,$current_status);
 			
 			 $queryhistory = "UPDATE `orderstatushistory` SET `orderid` = ".$_GET['id'].", `datepaid`='".$orderpaid."' WHERE orderid=".$_GET['id'];
 	
@@ -821,7 +833,7 @@ $roworder = mysql_fetch_assoc($rowsorder);
 	   
 	   $orderpaid = date('Y-m-d H:i:s');
 	   
-	   add_orderlog($_GET['id'],6);
+	   add_orderlog($_GET['id'],6,$current_status);
 	   
 	   $queryhistory = "UPDATE `orderstatushistory` SET `orderid` = ".$_GET['id'].", `datepaid`='".$orderpaid."' WHERE orderid=".$_GET['id'];
 	
@@ -843,7 +855,7 @@ $txtreview = $messagereview;
 
 mysql_query("INSERT INTO tp_review_email_reminder (order_id, user_id, count, status) VALUES($id, $userid, 1, 1)");
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mailreview = new PHPMailer();
 		$mailreview->IsSMTP();
 		$mailreview->SMTPAuth = true;
@@ -875,7 +887,7 @@ require_once '../PHPMailer-master/PHPMailerAutoload.php';
 			 
 $subject = "We have released payment for your ".$roworder['ProductDescription'];
 $txt = $message;
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -942,7 +954,7 @@ $form->setPostFields($fields,'id', $id);
 
 if($_POST['OrderStatus'] == 1){
 	
-	add_orderlog($_GET['id'],1);
+	add_orderlog($_GET['id'],1,$current_status);
 	
 	$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateordered` IS NOT NULL";
 $recheckhistory=mysql_query($vascheckhistory);
@@ -959,7 +971,7 @@ else{
 
 if($_POST['OrderStatus'] == 3){
 	
-	add_orderlog($_GET['id'],3);
+	add_orderlog($_GET['id'],3,$current_status);
 	
 	$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateadjusted` IS NOT NULL";
 $recheckhistory=mysql_query($vascheckhistory);
@@ -1012,7 +1024,7 @@ $roworder = mysql_fetch_assoc($rowsorder);
 			 
 $subject = "Urgent: Action Required on Your ".$roworder['ProductDescription'];
 $txt = $message;
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -1043,7 +1055,7 @@ if (!$sent){
 }
 if($_POST['OrderStatus'] == 5){
 	
-	add_orderlog($_GET['id'],5);
+	add_orderlog($_GET['id'],5,$current_status);
 	
 	$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `datereleased` IS NOT NULL";
 
@@ -1061,7 +1073,7 @@ else{
 
 if($_POST['OrderStatus'] == 7){
 	
-	add_orderlog($_GET['id'],7);
+	add_orderlog($_GET['id'],7,$current_status);
 	
 	$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `datecancelled` IS NOT NULL";
 $recheckhistory=mysql_query($vascheckhistory);
@@ -1079,7 +1091,7 @@ $queryhistory = "UPDATE `orderstatushistory` SET `orderid` = ".$_GET['id'].", `d
 //expired
 if($_POST['OrderStatus'] == 8)
 {
-	add_orderlog($_GET['id'],8);
+	add_orderlog($_GET['id'],8,$current_status);
 	
 	$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateexpired` IS NOT NULL";
 	$recheckhistory=mysql_query($vascheckhistory);
@@ -1098,7 +1110,7 @@ if($_POST['OrderStatus'] == 8)
 //return completed
 if($_POST['OrderStatus'] == 9)
 {
-	add_orderlog($_GET['id'],9);
+	add_orderlog($_GET['id'],9,$current_status);
 	
 	$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `datereturncompleted` IS NOT NULL";
 	$recheckhistory=mysql_query($vascheckhistory);
@@ -1157,7 +1169,7 @@ if($_POST['OrderStatus'] == 9)
 		$message = str_replace('%help%', $help, $message);
 		$subject = "We have returned your ".$roworder['ProductDescription']." back to you";
 		$txt = $message;
-		require_once '../PHPMailer-master/PHPMailerAutoload.php';
+		require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsSMTP();
 		$mail->SMTPAuth = true;
@@ -1186,7 +1198,7 @@ if($_POST['OrderStatus'] == 9)
 //end return completed
 if($_POST['OrderStatus'] == 4)
 {
-	add_orderlog($_GET['id'],4);
+	add_orderlog($_GET['id'],4,$current_status);
 	
 	$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `datereturned` IS NOT NULL";
 	$recheckhistory=mysql_query($vascheckhistory);
@@ -1241,7 +1253,7 @@ FROM `order` INNER JOIN `product` ON product.ProductCode=order.ProductId INNER J
 	$message = str_replace('%help%', $help, $message);
 	$subject = "We have returned your ".$roworder['ProductDescription']." back to you";
 	$txt = $message;
-	require_once '../PHPMailer-master/PHPMailerAutoload.php';
+	require_once 'PHPMailer-master/PHPMailerAutoload.php';
 	$mail = new PHPMailer();
 	$mail->IsSMTP();
 	$mail->SMTPAuth = true;
@@ -1269,7 +1281,7 @@ FROM `order` INNER JOIN `product` ON product.ProductCode=order.ProductId INNER J
 
 if($_POST['OrderStatus'] == 2){
 	
-	add_orderlog($_GET['id'],2);
+	add_orderlog($_GET['id'],2,$current_status);
 	
 	$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `datereceived` IS NOT NULL";
 $recheckhistory=mysql_query($vascheckhistory);
@@ -1337,7 +1349,7 @@ $email_from = "info@stopoint.com";
 $subject = "We Received Your ".$roworder['ProductDescription'];
 $txt = $message;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsHTML(true);
 		$mail->CharSet = "text/html; charset=UTF-8;";
@@ -1386,7 +1398,7 @@ $queryhistory = "UPDATE `orderstatushistory` SET `orderid` = ".$_GET['id'].", `d
 			$orderhistory = mysql_query($queryhistory) or die(mysql_error());
 }*/ 
 
-add_orderlog($_GET['id'],10);
+add_orderlog($_GET['id'],10,$current_status);
 
 //activation lock
 $vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateactivationlock` IS NOT NULL";
@@ -1458,7 +1470,7 @@ $email_from = "info@stopoint.com";
 $subject = "Urgent: Action Required on Your ".$roworder['ProductDescription'];
 $txt = $message;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsHTML(true);
 		$mail->CharSet = "text/html; charset=UTF-8;";
@@ -1500,7 +1512,7 @@ Started code for Order Status starting from 11 till 14
 //Installment Payment	
 	if($_POST['OrderStatus'] == 11){
 
-	add_orderlog($_GET['id'],11);
+	add_orderlog($_GET['id'],11,$current_status);
 
 //activation lock
 $vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateinstallment` IS NOT NULL";
@@ -1572,7 +1584,7 @@ $email_from = "info@stopoint.com";
 $subject = "Urgent: Action Required on Your ".$roworder['ProductDescription'];
 $txt = $message;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsHTML(true);
 		$mail->CharSet = "text/html; charset=UTF-8;";
@@ -1610,7 +1622,7 @@ if (!$sent){
 	//IMEI Check
 	if($_POST['OrderStatus'] == 12){
 
-	add_orderlog($_GET['id'],12);
+	add_orderlog($_GET['id'],12,$current_status);
 
 //IMEI Check
 $vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateimei` IS NOT NULL";
@@ -1630,7 +1642,7 @@ $vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id
 	//activation-lock inspection
 	if($_POST['OrderStatus'] == 13){
 
-	add_orderlog($_GET['id'],13);
+	add_orderlog($_GET['id'],13,$current_status);
 
 //activation-lock inspection
 $vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateactivationlockinspection` IS NOT NULL";
@@ -1650,7 +1662,7 @@ $vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id
 	//Blacklisted
 	if($_POST['OrderStatus'] == 14){
 
-	add_orderlog($_GET['id'],14);
+	add_orderlog($_GET['id'],14,$current_status);
 
 	//Blacklisted
 	$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateblacklisted` IS NOT NULL";
@@ -1722,7 +1734,7 @@ $email_from = "info@stopoint.com";
 $subject = "Important Information Concerning Your ".$roworder['ProductDescription']." for blacklisted";
 $txt = $message;
 
-require_once '../PHPMailer-master/PHPMailerAutoload.php';
+require_once 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer();
 		$mail->IsHTML(true);
 		$mail->CharSet = "text/html; charset=UTF-8;";
@@ -1761,7 +1773,7 @@ if (!$sent){
 		//adjusted-price inspection
 	if($_POST['OrderStatus'] == 15){
 
-	add_orderlog($_GET['id'],15);
+	add_orderlog($_GET['id'],15,$current_status);
 
 //adjusted-price inspection
 $vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateadjustedpriceinspection` IS NOT NULL";
@@ -1778,7 +1790,25 @@ $vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id
 //end adjusted-price inspection
 	}
 	
-	
+		//imei inspection
+	if($_POST['OrderStatus'] == 16){
+
+	add_orderlog($_GET['id'],16,$current_status);
+
+//imei inspection
+$vascheckhistory = "SELECT * FROM `orderstatushistory` WHERE orderid=".$_GET['id']." AND `dateimeiinspection` IS NOT NULL";
+		$recheckhistory=mysql_query($vascheckhistory);
+		$wehistory= mysql_num_rows($recheckhistory);
+		if($wehistory > 0){}
+		else
+		{
+			$orderreceived = date('Y-m-d H:i:s');						
+			
+			$queryhistory = "UPDATE `orderstatushistory` SET `orderid` = ".$_GET['id'].", `dateimeiinspection`='".$orderreceived."' WHERE orderid=".$_GET['id'];
+			$orderhistory = mysql_query($queryhistory) or die(mysql_error());
+		}
+//end adjusted-price inspection
+	}	
 
 /*
 Started code for Order Status starting from 11 till 14
@@ -2827,7 +2857,7 @@ while($wemessage1=mysql_fetch_array($remessage))
 		while($weadmin=mysql_fetch_array($readmin))
 		{?>
 			<p style="margin-left:50px; height:100px;">
-				<span style="font-size:14px"><img height="50" width="50" src="../images/users/<?php echo $weadmin['image']; ?>" style="border-radius:50%; float:left;" width="45px" height="45px" /></span>
+				<span style="font-size:14px"><img height="50" width="50" src="images/users/<?php echo $weadmin['image']; ?>" style="border-radius:50%; float:left;" width="45px" height="45px" /></span>
 				<span style="margin-left:15px;"><?php echo $weadmin['Date']; ?><br />	
 					<label style="font-size:14px; font-weight:bold; margin-left:15px;">Comments : </label>
 					<span style="font-size:14px"> <?php echo $weadmin['Comments']; ?></span>
@@ -2909,6 +2939,16 @@ $wehistory=mysql_fetch_assoc($rehistory);
                 
                 <?php }
 				//end adjusted-price inspection
+				?>
+				
+				<?php
+				//Start Date IMEI				
+				if($wehistory['dateimeiinspection'] != ""){
+				?>
+					<p><?php echo date('m/d/y h:i:s',strtotime($wehistory['dateimeiinspection']));  ?>: IMEI Inspection </p>
+				<?php				
+				}					
+				//End Date IMEI					
 				?>
 				
 				<?php
@@ -3002,6 +3042,38 @@ $wehistory=mysql_fetch_assoc($rehistory);
 				 ?>
                 <p><?php echo date('m/d/y h:i:s',strtotime($wehistory['dateordered']));  ?>: Order Pending</p>
                 <?php } ?>
+</div>
+
+<div class="content-box-content">
+	<h3>Detailed Order History</h3>					 
+	<?php
+		$sql2 = 'SELECT orderlog.orderstatus, orderlog.addedby, user.FirstName, user.LastName, orderlog.dateadded
+			FROM user
+			INNER JOIN orderlog ON orderlog.addedby = user.id
+			WHERE orderlog.orderid = ' . $_GET['id'] . ' ORDER BY orderlog.dateadded DESC';
+			
+		$res2 = mysql_query($sql2);
+		$detailed_history = '<table border=1>';
+		
+		while($rows2 = mysql_fetch_assoc($res2)){
+			$tmp_firstname = $rows2['FirstName'];
+			$tmp_lastname = $rows2['LastName'];
+			$tmp_orderstatus = $rows2['orderstatus'];			
+			$tmp_dateadded = $rows2['dateadded'];			
+			
+			$detailed_history .= '<tr>';
+			
+			$detailed_history .= '<td>' . $tmp_dateadded . '</td>';
+			$detailed_history .= '<td>' . get_order_status_str($tmp_orderstatus) . '</td>';
+			$detailed_history .= '<td>' . $tmp_firstname . ' ' . $tmp_lastname . '</td>';
+			
+			$detailed_history .= '</tr>';
+			
+		}
+		$detailed_history .= '</table>';
+		
+		echo $detailed_history;
+	?>
 </div>
 			</div> <!-- End .content-box -->
 <?php

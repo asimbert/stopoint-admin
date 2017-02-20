@@ -116,7 +116,7 @@ else if(isset($_POST['orderid'])){
 		mysql_query("INSERT INTO ordertrasactions (`OrderId`,`UserId`,`PaidById`,`AmountPaid`,`PaymentMethod`,`ChequeNumber`,`TransactionId`) VALUES('$orderid','$userid',10,'$amount','$payment_method','$checknumber','$transactionid')") or die(mysql_error());
 		$orderpaid = date('Y-m-d H:i:s');
 		
-		add_orderlog($_GET['id'],6);
+		add_orderlog($orderid,6,1);
 		
 		$queryhistory = "UPDATE `orderstatushistory` SET `orderid` = ".$orderid.", `datepaid`='".$orderpaid."' WHERE orderid=".$orderid;
 	

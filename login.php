@@ -62,7 +62,9 @@ if (!empty($_POST['submit'])) {
 			  $details = $db->select("SELECT * FROM user WHERE EmailAddress='$user' AND UserType != 'User'");
 			  $_SESSION['user_info'] = $details;
 			  $_SESSION['userid'] = $details['id'];
-		
+			  $_SESSION['UserType'] = $details['UserType'];
+			  $_SESSION['EmailAddress'] = $details['EmailAddress'];
+		  
 			// setting cookie (for 30 days) if remember is checked 
 			if(isset($_POST['remember'])) {
 			

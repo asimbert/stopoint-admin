@@ -490,6 +490,12 @@ function get_order_status_str($status_id){
 		case 15:
 			$status_name = 'Adjusted Price Inspection';
 			break;
+		case 16:
+			$status_name = 'IMEI Inspection';
+			break;
+		case 17:
+			$status_name = 'Recycle';
+			break;
 		default:
 			$status_name = 'Unkown';
 	}
@@ -578,10 +584,25 @@ function paypal_http_post($methodName_, $nvpStr_)
  return $httpParsedResponseAr;
 }
 
-function add_orderlog($orderid, $orderstatus){
+function add_orderlog($orderid, $orderstatus, $current_orderstatus){
+	//$current_orderstatus = orderstatus_by_id($orderid);
+	if($current_orderstatus == $orderstatus){
+		return;
+	}
 	$dateadded = date('Y-m-d H:i:s');
 	$addedby = $_SESSION['userid'];
 	mysql_query("INSERT INTO orderlog (`orderid`,`orderstatus`,`dateadded`,`addedby`) VALUES('$orderid','$orderstatus','$dateadded','$addedby')") or die(mysql_error());
 	
+}
+
+function orderstatus_by_id($orderid){
+	$orderstatus = '';
+	$sql = 'SELECT OrderStatus FROM `order` WHERE id=' . $orderid;
+	$res = mysql_query($sql) or die(mysql_error());
+	if($rows = mysql_fetch_assoc($res)){
+		$orderstatus = $rows['OrderStatus'];
+	}
+	
+	return $orderstatus;
 }
 ?>

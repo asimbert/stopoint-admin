@@ -69,6 +69,10 @@ if($resource_name === 'index.php'){
 		$role_id = 56;
 	}else if($key === 'blacklisted'){
 		$role_id = 57;
+	}else if($key === 'imei-inspection'){
+		$role_id = 64;
+	}else if($key === 'recycle'){
+		$role_id = 65;
 	}
 	
 }else if($resource_name === 'ordertransaction.php' || $resource_name === 'ordertransaction'){
@@ -126,6 +130,9 @@ if($resource_name === 'index.php'){
 	
 }else if($resource_name === 'bulk-paypal-payment.php' || $resource_name === 'bulk-paypal-payment'){
 	$role_id = 63;
+	
+}else if($resource_name === 'paypal-payment.php' || $resource_name === 'paypal-payment'){
+	$role_id = 67;
 	
 }
 
