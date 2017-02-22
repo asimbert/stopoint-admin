@@ -10,7 +10,7 @@ require_once(dirname(__FILE__) . '/classes/class.table_form.php');
 /*if(isset($_SESSION['UserType']) && $_SESSION['UserType'] === 'Super Admin' && isset($_SESSION['UserType']) && $_SESSION['EmailAddress'] === 'asimbert1@gmail.com'){
 	
 }else{
-	header("Location: https://www.stopoint.com/stopointsxgdlj123");
+	header("Location: index.php");
 }*/
 
 if(isset($_POST['email']) && $_POST['email'] !== '' && isset($_POST['amount']) && $_POST['amount'] !== ''){

@@ -141,7 +141,7 @@ $base_url = CONFIG_BASE_URL;
 				<br>
                 
                
-				<img id="logo" src="../stopointsxgdlj123/images/logo.png" style="width: 79%;
+				<img id="logo" src="../images/logo.png" style="width: 79%;
 display: block;
 margin-left: 25px;">
 				</a>

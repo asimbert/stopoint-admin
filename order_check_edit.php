@@ -1867,7 +1867,7 @@ function btnpdf1()
 {
 
 
-	window.location = "http://www.stopoint.com/stopointsxgdlj123/order_edit_check.php?action=edit&id=<?php echo $_GET['id'];?>&p=<?php echo $_GET['p'];?>&key=<?php echo $_GET['key'];?>&res=1";
+	window.location = "order_edit_check.php?action=edit&id=<?php echo $_GET['id'];?>&p=<?php echo $_GET['p'];?>&key=<?php echo $_GET['key'];?>&res=1";
 }
 
 function btnpdf2()
